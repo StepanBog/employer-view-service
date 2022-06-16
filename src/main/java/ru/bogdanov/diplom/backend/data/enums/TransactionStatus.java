@@ -1,0 +1,21 @@
+package ru.bogdanov.diplom.backend.data.enums;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+/**
+ * @author SBogdanov
+ * Статус транзакции
+ */
+@AllArgsConstructor
+public enum TransactionStatus implements WithDescription {
+
+    AWAITING_CONFORMATION("Ожидаем подтверждения"),
+    CONFIRMED("Запрос подтвержден"),
+    DECLINE("Запрос отклонен"),
+    EXPIRED("Запрос просрочен"),
+    WITHDRAWN("Запрос отозван");
+
+    @Getter
+    private String description;
+}

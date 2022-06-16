@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: employer-view-service
+    
+vaadin:
+  launch-browser: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
+grpc:
+  server:
+    port: 6580
+  client:
+    auth-service:
+      address: 'static://localhost:6570'
+      enableKeepAlive: true
+      keepAliveTime: 10s
+      keepAliveTimeout: 5s
+      keepAliveWithoutCalls: false
+      negotiationType: PLAINTEXT
+    main-service:
+      address: 'static://localhost:6565'
+      enableKeepAlive: true
+      keepAliveTime: 10s
+      keepAliveTimeout: 5s
+      keepAliveWithoutCalls: false
+      negotiationType: PLAINTEXT
+server:
+  port: 8084

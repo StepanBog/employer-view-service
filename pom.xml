@@ -31,11 +31,6 @@
 
 
     <dependencies>
-        <!--        <dependency>-->
-        <!--            <groupId>org.camunda.bpm.springboot</groupId>-->
-        <!--            <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>-->
-        <!--            <version>7.16.0</version>-->
-        <!--        </dependency>-->
         <dependency>
             <groupId>ru.bogdanov.diplom</groupId>
             <artifactId>main-service-proto</artifactId>

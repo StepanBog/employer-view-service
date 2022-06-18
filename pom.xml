@@ -23,12 +23,8 @@
         <grpc.version>1.42.2</grpc.version>
         <logback.gelf.version>3.0.0</logback.gelf.version>
         <starter-grpc.version>2.13.1.RELEASE</starter-grpc.version>
-        <odp-document-service-proto.version>2.0.0-SNAPSHOT</odp-document-service-proto.version>
         <service-proto.version>2.0.0-SNAPSHOT</service-proto.version>
         <auth-service-proto.version>1.0</auth-service-proto.version>
-        <auth-proto.version>2.0.0-SNAPSHOT</auth-proto.version>
-        <odp-common-proto.version>2.0.0-SNAPSHOT</odp-common-proto.version>
-        <payment-integration-proto.version>2.0.0-SNAPSHOT</payment-integration-proto.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <vaadin.version>14.8.4</vaadin.version>
     </properties>
